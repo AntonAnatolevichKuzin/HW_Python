@@ -19,7 +19,6 @@ def winner(maps, win_res):
             win = '0'
     return win
 
-
 def symbol_input(symbol):
     step = int(input('Ваш ход! '))
     flag = False
@@ -30,6 +29,7 @@ def symbol_input(symbol):
             flag = True
         else:
             step = int(input('Эта ячейка занята! Введите другую: '))
+
 
 
 maps = [1, 2, 3, 4, 5, 6, 7, 8, 9]

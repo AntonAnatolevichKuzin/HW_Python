@@ -14,6 +14,7 @@ def InputNum(a):
        a = int(input('Берите не более 28 конфет. Какое количество конфет Вы возьмете? '))       
     return a    
         
+        
 
 remainder = 2021
 print(f'На столе лежит', remainder,'конфета.')

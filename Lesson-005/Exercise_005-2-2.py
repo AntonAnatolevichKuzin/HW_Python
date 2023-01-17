@@ -17,6 +17,7 @@ def InputNum(a):
     return x    
         
 
+
 remainder = 2021
 print(f'На столе лежит', remainder,'конфета.')
 while remainder > 0:
