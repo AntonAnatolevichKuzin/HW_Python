@@ -34,7 +34,7 @@ def create_str(new_list):
     return result
 
 def write_file(res):
-    with open('Result_004-2.txt', 'w') as data:
+    with open('Result_006.txt', 'w') as data:
         data.write(res)
 
 
