@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 
-TOKEN_API = '6135989621:AAGKwDMKAhvKslGHo-hu2ZcsiOoI1YZGD5w'
+TOKEN_API = '' # Токен удален!
 
 bot = telebot.TeleBot(TOKEN_API)
 
