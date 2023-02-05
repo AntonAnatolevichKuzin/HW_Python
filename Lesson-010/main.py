@@ -42,7 +42,7 @@ async def calculate(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             heap['operator'] = None
 
 
-app = ApplicationBuilder().token("6135989621:AAGKwDMKAhvKslGHo-hu2ZcsiOoI1YZGD5w").build()
+app = ApplicationBuilder().token("").build()
 print("Работаем!!!")
 app.add_handler(CommandHandler("start", startcalc))
 app.add_handler(CommandHandler("instruction", output_help))
